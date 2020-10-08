@@ -4,7 +4,7 @@ import { accessKey, secret_key } from './apikeys.js';
 // Positionstack API
 // Forward Geocoding for location search box
 const access_key = accessKey;
-const url = 'http://api.positionstack.com/v1/forward?';
+const url = 'https://cors-anywhere.herokuapp.com/http://api.positionstack.com/v1/forward?';
 
 
 const geocode = async (locationQuery) => {
